@@ -377,10 +377,10 @@ openclaw onboard --install-daemon
 ### Step 8.3: Connect WhatsApp
 
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
 
-Scan QR code with WhatsApp Business app on your phone.
+Select **WhatsApp** when prompted. Scan QR code with WhatsApp Business app on your phone.
 
 ### Step 8.4: Verify
 

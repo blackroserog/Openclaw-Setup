@@ -384,22 +384,17 @@ Choose **Yes** to install systemd service
 ### Step 7.3: Connect WhatsApp
 
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
 
-A QR code appears in your terminal.
+Select **WhatsApp** when prompted. A QR code appears in your terminal.
 
 **On your phone:**
 1. Open **WhatsApp Business** (the one with your eSIM number)
 2. Go to **Settings** → **Linked Devices** → **Link a Device**
 3. Scan the QR code
 
-**Note:** The QR code might look weird over SSH. If it doesn't scan:
-
-```bash
-# Try generating a cleaner QR
-openclaw channels login --channel whatsapp --qr-terminal
-```
+**Note:** The QR code might look weird over SSH. If it doesn't scan, try a different terminal app that renders better.
 
 Or use a different terminal app that renders better.
 
@@ -591,10 +586,10 @@ sudo reboot  # If kernel updated
 ### "WhatsApp disconnected"
 
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
 
-Scan QR code again.
+Select WhatsApp when prompted, then scan QR code again.
 
 ### "Gateway not running"
 
@@ -631,7 +626,7 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 Try different terminal:
 ```bash
 # Use simpler QR output
-openclaw channels login --channel whatsapp 2>&1 | less
+openclaw channels add 2>&1 | less
 ```
 
 Or take screenshot and zoom in on phone.

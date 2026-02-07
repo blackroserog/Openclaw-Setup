@@ -389,13 +389,13 @@ The wizard will:
 
 ## Part 6: Connect WhatsApp
 
-### Step 6.1: Start WhatsApp Login
+### Step 6.1: Add WhatsApp Channel
 
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
 
-A QR code appears in Terminal.
+Select **WhatsApp** when prompted. A QR code appears in Terminal.
 
 ### Step 6.2: Scan from Your Phone
 
@@ -552,9 +552,9 @@ You now have a dedicated AI assistant running 24/7!
 
 ### When WhatsApp Disconnects
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
-Then scan QR code again. This happens every few weeks.
+Select WhatsApp when prompted, then scan QR code again. This happens every few weeks.
 
 ---
 
@@ -585,8 +585,8 @@ openclaw onboard --install-daemon
 # Check status
 openclaw channels status
 
-# If disconnected, re-login
-openclaw channels login --channel whatsapp
+# If disconnected, re-add the channel
+openclaw channels add
 ```
 
 ### "AI not responding"

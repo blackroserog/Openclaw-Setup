@@ -323,11 +323,13 @@ Note it down if shown, or find it later in the config.
 
 After the wizard completes, connect WhatsApp:
 
-### Start WhatsApp Login
+### Add WhatsApp Channel
 
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
+
+Select **WhatsApp** when prompted.
 
 ### What You'll See
 
@@ -472,7 +474,7 @@ openclaw gateway stop
 openclaw channels status
 
 # Re-link WhatsApp (if disconnected)
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
 
 ---
@@ -485,9 +487,9 @@ This is normal. WhatsApp sessions expire periodically.
 
 **Fix:**
 ```bash
-openclaw channels login --channel whatsapp
+openclaw channels add
 ```
-Then scan the QR code again.
+Select WhatsApp when prompted, then scan the QR code again.
 
 ---
 

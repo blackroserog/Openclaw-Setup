@@ -6,6 +6,7 @@
 ![Channels](https://img.shields.io/badge/Channels-9-purple)
 ![Updated](https://img.shields.io/badge/Updated-February_2026-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Views](https://komarev.com/ghpvc/?username=openclaw-setup&label=Views&color=brightgreen)
 
 
 Complete step-by-step guides for installing and configuring [OpenClaw](https://openclaw.ai) — an open-source AI agent that runs on your own hardware and connects to messaging apps like WhatsApp, Telegram, Discord, Slack, iMessage, and more.

@@ -198,10 +198,10 @@ openclaw gateway restart
 
 **Fix:**
 ```bash
-# Re-login
-openclaw channels login --channel whatsapp
+# Re-add the channel
+openclaw channels add
 
-# Scan QR code with WhatsApp Business app
+# Select WhatsApp, then scan QR code with WhatsApp Business app
 # Go to: Settings → Linked Devices → Link a Device
 ```
 
@@ -213,13 +213,11 @@ openclaw channels login --channel whatsapp
 
 **Fix:**
 ```bash
-# Try different terminal rendering
-openclaw channels login --channel whatsapp --qr-terminal
+# Re-add the channel and try in a different terminal app (iTerm2, Alacritty, etc.)
+openclaw channels add
 
-# Or try in different terminal app (iTerm2, Alacritty, etc.)
-
-# If over SSH, try:
-TERM=xterm-256color openclaw channels login --channel whatsapp
+# If over SSH, try setting the terminal type first:
+TERM=xterm-256color openclaw channels add
 ```
 
 ---
@@ -232,7 +230,7 @@ TERM=xterm-256color openclaw channels login --channel whatsapp
 1. On your phone, go to WhatsApp Business
 2. Settings → Linked Devices
 3. Remove old linked device if present
-4. Re-link: `openclaw channels login --channel whatsapp`
+4. Re-link: `openclaw channels add` (select WhatsApp)
 
 ---
 

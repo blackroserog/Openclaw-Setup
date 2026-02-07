@@ -65,11 +65,11 @@ This guide covers setting up ALL messaging channels supported by OpenClaw:
 ### Step 1.3: Connect to OpenClaw
 
 ```bash
-# Start WhatsApp login
-openclaw channels login --channel whatsapp
+# Start WhatsApp channel setup
+openclaw channels add
 ```
 
-A QR code appears in terminal.
+Select **WhatsApp** when prompted. A QR code appears in terminal.
 
 ### Step 1.4: Scan QR Code
 
@@ -104,12 +104,12 @@ openclaw pairing approve whatsapp <CODE>
 **QR Code Won't Scan**
 ```bash
 # Try cleaner QR output
-TERM=xterm-256color openclaw channels login --channel whatsapp
+TERM=xterm-256color openclaw channels add
 ```
 
 **Session Expired**
 - Sessions expire every 1-4 weeks
-- Re-run: `openclaw channels login --channel whatsapp`
+- Re-run: `openclaw channels add` (select WhatsApp)
 - Scan QR again
 
 **Rate Limited**
